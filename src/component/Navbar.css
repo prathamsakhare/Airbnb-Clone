@@ -1,0 +1,97 @@
+.navbar {
+    padding: 0px 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #e6dfdf; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #131420;
+    z-index: 100;
+}
+.fs{
+    display: flex;
+    background-color: #131420;
+    
+}
+.fs > p {
+    font-size: 28px;
+    font-weight: 700;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.primary-button{
+    /* background-color: black; */
+    border: none;
+    border-radius: 18px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.primary-button:hover{
+    background-color: #e6dfdf;
+    color: #131420;
+    animation-name: hovering;
+    animation-duration: 0.5s;
+    
+}
+
+.earth-logo {
+    height: 16px;
+    width: 16px;
+    /* padding: 5px; */
+    border-radius: 50%;
+
+}
+.earth-logo:hover{
+    cursor: pointer;
+}
+.loginBtn{
+    padding: 5px 12px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: 2px solid #e6dfdf;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+.loginBtn:hover {
+    box-shadow: 0px 4px 4px #888888;
+}
+.loginbtn1 {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+.loginbtn2 {
+    height: 30px;
+    width: 30px;
+}
+
+
+.btnsearch {
+    z-index: 100;
+}
+/* ! utility classes */
+
+.btn-bg:hover {
+    background-color: #e6dfdf;
+}
+
+@media (max-width:960px) {
+    
+}
+@media(max-width:600px){
+    .ss{display: none}
+    .fs{
+        margin:auto;
+    }
+}

@@ -1,0 +1,48 @@
+.card{
+    height: 400px;
+    width: 20%;
+    margin: 10px;
+    border-radius: 15px;
+    position: relative
+}
+
+.card > img {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px ;
+}
+.card-content {
+    padding: 10px 10px 10px 0px;
+}
+.primary-text{
+    font-weight: 700;
+    width: 100%;
+}
+.f-line{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.name{
+    margin-top: 10px;
+}
+.price{
+    display: flex;
+}
+.superhost{
+    position: absolute;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    color: #131420;
+    font-weight: 600;
+}
+
+@media (max-width:960px) {
+    .card { width: 35% }
+}
+@media(max-width:600px){
+    .card{width : 60%}
+}
