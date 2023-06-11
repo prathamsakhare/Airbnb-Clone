@@ -66,11 +66,6 @@ export const Desrt2 = () => {
                 return <Card type={room.type} name={room.name} city = {room.city} key={key} img={room.images[0]} rating = {room.rating} price={room.price.total} superHost = {room.isSuperhost} />;
               })
         )}
-        {/* {
-            data?.map((room, key) => {
-                return <Card type={room.type} name={room.name} city = {room.city} key={key} img={room.images[0]} rating = {room.rating} price={room.price.total} superHost = {room.isSuperhost} />;
-              })
-        } */}
         
       </div>
     </div>
